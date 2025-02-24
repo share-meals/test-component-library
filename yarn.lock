@@ -377,21 +377,21 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/retry/-/retry-0.4.2.tgz#1860473de7dfa1546767448f333db80cb0ff2161"
   integrity sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==
 
-"@ionic/core@8.4.3", "@ionic/core@^8.4.3":
-  version "8.4.3"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-8.4.3.tgz#109868f5b44b178a46489c1de56f16f300684b6e"
-  integrity sha512-U9HdZ32bre6OKA5akJVmQMxNB8Art3Nqdn3s7m2W83I5NhLg9Tehaf8ua8jxPZtxCa1nuN7tUbzHmMCkcdqDTw==
+"@ionic/core@7.8.6", "@ionic/core@^7.7.3":
+  version "7.8.6"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-7.8.6.tgz#523f5a3d0fd52c9560213a32719af06fe3f6d769"
+  integrity sha512-HAYZdEmeJgOdo2kDlZkcCGHb+zs/vjU6iv4skbVBL7y+OnSv/oC2u83Yee8S3/aY0YAxkyBgu7hLTYH13Zc2Aw==
   dependencies:
-    "@stencil/core" "4.20.0"
+    "@stencil/core" "^4.12.2"
     ionicons "^7.2.2"
     tslib "^2.1.0"
 
-"@ionic/react@^8.4.3":
-  version "8.4.3"
-  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-8.4.3.tgz#c9505e6eb2bee2a3192c35804d59cfb1b58d8ad2"
-  integrity sha512-AqwmoRCjTDBIgmywE6VnOOacOry21ma6TWMS8Dg8ZGu41rT6edDSmX/lKvAAV+jg4TkjE/U5n//OxzHBY/0+Zg==
+"@ionic/react@^7.7.3":
+  version "7.8.6"
+  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-7.8.6.tgz#f124b656a8b6e35756f07098a74ad73ca0078b5d"
+  integrity sha512-IIlcdOW2OmcrjC3nqGqQCcJdHDnEbGIfyzpKR0FDaRQ6M/a7Mz6IlIG/cgdGP0RBBadECykBFDfa6XgRAGwWoA==
   dependencies:
-    "@ionic/core" "8.4.3"
+    "@ionic/core" "7.8.6"
     ionicons "^7.0.0"
     tslib "*"
 
@@ -635,12 +635,7 @@
     argparse "~1.0.9"
     string-argv "~0.3.1"
 
-"@stencil/core@4.20.0":
-  version "4.20.0"
-  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-4.20.0.tgz#221f2b36ab999891560449b02d6915862c435f49"
-  integrity sha512-WPrTHFngvN081RY+dJPneKQLwnOFD60OMCOQGmmSHfCW0f4ujPMzzhwWU1gcSwXPWXz5O+8cBiiCaxAbJU7kAg==
-
-"@stencil/core@^4.0.3":
+"@stencil/core@^4.0.3", "@stencil/core@^4.12.2":
   version "4.27.0"
   resolved "https://registry.yarnpkg.com/@stencil/core/-/core-4.27.0.tgz#0c0199f9f2285470f30f1743f3e744d8afad43fd"
   integrity sha512-GOA+pvSpwL734yijTB8+LHesqPq3o/K6IaCrNoZybNVpe6lgVfvciDwPeP1XOj6JZpA/Lp8Uh3U9znoS8qgwOA==
@@ -1741,22 +1736,10 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-react-dom@^19.0.0:
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.0.0.tgz#43446f1f01c65a4cd7f7588083e686a6726cfb57"
-  integrity sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==
-  dependencies:
-    scheduler "^0.25.0"
-
 react-refresh@^0.14.2:
   version "0.14.2"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.14.2.tgz#3833da01ce32da470f1f936b9d477da5c7028bf9"
   integrity sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==
-
-react@^19.0.0:
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-19.0.0.tgz#6e1969251b9f108870aa4bff37a0ce9ddfaaabdd"
-  integrity sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==
 
 require-from-string@^2.0.2:
   version "2.0.2"
@@ -1816,11 +1799,6 @@ run-parallel@^1.1.9:
   integrity sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   dependencies:
     queue-microtask "^1.2.2"
-
-scheduler@^0.25.0:
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.25.0.tgz#336cd9768e8cceebf52d3c80e3dcf5de23e7e015"
-  integrity sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==
 
 semver@^6.3.1:
   version "6.3.1"
