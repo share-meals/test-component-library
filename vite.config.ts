@@ -12,8 +12,10 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'MyComponentLibrary',
-      fileName: (format) => `my-component-library.${format}.js`,
+      fileName: (format) => `test-component-library.${format}.js`,
+    formats: ['es']
     },
+    minify: false,
     rollupOptions: {
       // Externalize peer dependencies
       external: ['react', 'react-dom', '@ionic/react', '@ionic/core'],

@@ -1,16 +1,16 @@
 {
   "name": "@share-meals/test-component-library",
   "private": false,
-  "version": "0.0.1",
-  "main": "dist/my-component-library.umd.js",
-  "module": "dist/my-component-library.es.js",
+    "version": "0.0.2",
+    "main": "dist/test-component-library.es.js",
+  "module": "dist/test-component-library.es.js",
   "types": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/@share-meals/test-component-library.git"
+    "url": "git+https://github.com/@share-meals/test-component-library.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
