@@ -5,7 +5,9 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [
-    react(),
+    react({
+      jsxRuntime: 'automatic', // Use the automatic JSX runtime (React 17+)
+    }),
     dts({ insertTypesEntry: true }), // Generate TypeScript declaration files
   ],
   build: {
